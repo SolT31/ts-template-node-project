@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+      "strict": true,
+      "target": "ES2022",
+      "downlevelIteration": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "module": "nodenext",
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"],
+      },
+      "outDir": "./dist"
+  }
+}
